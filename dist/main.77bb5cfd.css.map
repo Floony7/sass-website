@@ -1,0 +1,1 @@
+{"version":3,"sources":["scss\\main.scss"],"names":[],"mappings":"AAGA;EAAO,YAFA","file":"main.77bb5cfd.css","sourceRoot":"..\\src","sourcesContent":["$red: red;\r\n$pink: hotpink;\r\n\r\nbody { background: $pink;}"]}
