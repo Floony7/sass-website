@@ -1,4 +1,48 @@
+@use 'layout';
+
+/* COLORS */
 $red: red;
 $pink: hotpink;
+$dark-blue: darkblue;
+$off-white: #E0FFFF;
+$dark: #292929;
 
-body { background: $pink;}
+/* SPACING */
+$padding: 2rem;
+
+/* TYPOGRAPHY */
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Open+Sans&display=swap');
+
+$font-base: 'Open Sans', sans-serif;
+$font-secondary: 'Archivo Black', sans-serif;
+
+$fs-300: 1rem;
+$fs-400: 1.25rem;
+$fs-500: 2rem;
+$fs-600: 2.827rem;
+$fs-700: 4rem;
+$fs-800: 5.653rem;
+
+body { 
+    color: $off-white;
+    background-color: $dark;
+    font-family: $font-base;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $font-secondary;
+}
+
+.header-main {
+    background: url('../assets/images/bg-top.jpg') top center no-repeat;
+    background-size: 100% auto;
+    height: 20vh;
+    color: $dark;
+}
+
+.gradient-blue {
+    background: rgb(128,229,222);
+background: linear-gradient(210deg, rgba(128,229,222,1) 0%, rgba(35,169,160,1) 25%, rgba(17,85,80,1) 100%);
+}

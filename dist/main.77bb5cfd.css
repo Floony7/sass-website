@@ -1,5 +1,43 @@
+/* COLORS */
+/* SPACING */
+/* TYPOGRAPHY */
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Open+Sans&display=swap");
+.content-grid {
+  display: grid;
+  grid-template-columns: 100px [breakout] 100px [content-start] 1fr [content-end] 100px [breakout-end] 100px [breakout];
+}
+.content-grid * {
+  grid-column: content;
+}
+.content-grid > .breakout {
+  grid-column: breakout;
+}
+.content-grid > .full-width {
+  grid-column: full-width;
+}
+
 body {
-  background: hotpink;
+  color: #E0FFFF;
+  background-color: #292929;
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Archivo Black", sans-serif;
+}
+
+.header-main {
+  background: url("/bg-top.c1c825d7.jpg") top center no-repeat;
+  background-size: 100% auto;
+  height: 20vh;
+  color: #292929;
+}
+
+.gradient-blue {
+  background: rgb(128, 229, 222);
+  background: linear-gradient(210deg, rgb(128, 229, 222) 0%, rgb(35, 169, 160) 25%, rgb(17, 85, 80) 100%);
 }
 
 /*# sourceMappingURL=/main.77bb5cfd.css.map */
