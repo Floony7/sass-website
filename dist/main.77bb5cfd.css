@@ -40,7 +40,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .gradient-blue {
   background: rgb(128, 229, 222);
-  background: linear-gradient(210deg, rgb(128, 229, 222) 0%, rgb(35, 169, 160) 25%, rgb(17, 85, 80) 100%);
+  background: linear-gradient(210deg, rgb(128, 229, 222) 0%, rgb(18, 152, 143) 25%, rgb(17, 85, 80) 100%);
 }
 
 .primary-footer {

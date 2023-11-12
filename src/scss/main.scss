@@ -8,6 +8,8 @@ $clr-dark-900: #292929;
 $clr-dark-600: #666;
 $clr-dark-300: #4d4d4d;
 $clr-orange: #f36745;
+$clr-ocean-300: rgba(35,169,160,1);
+$clr-ocean-600: rgb(30, 137, 130);
 $clr-ocean-900: rgba(17, 85, 80, 1);
 
 /* SPACING */
@@ -50,7 +52,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .gradient-blue {
     background: rgb(128,229,222);
-background: linear-gradient(210deg, rgba(128,229,222,1) 0%, rgba(35,169,160,1) 25%, rgba(17,85,80,1) 100%);
+background: linear-gradient(210deg, rgba(128,229,222,1) 0%, rgb(18, 152, 143) 25%, rgba(17,85,80,1) 100%);
 }
 
 .primary-footer {
